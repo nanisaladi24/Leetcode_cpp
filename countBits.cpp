@@ -8,6 +8,7 @@ vector<int> countBits(int num) {
     int i=0;
     int k=0;
     int m=1;
+    int dummy=0;
     for (i=0;i<=num;i++){
         if(i==m){
             res.push_back(1);
